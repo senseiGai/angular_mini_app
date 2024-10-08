@@ -4,7 +4,7 @@ import { config as dotenvConfig } from "dotenv";
 dotenvConfig();
 
 const token = process.env.BOT_TOKEN;
-const webAppUrl = "https://google.com";
+const webAppUrl = "https://angularminiapp.web.app/";
 
 const bot = new Telegraf(token);
 
